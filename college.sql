@@ -29,3 +29,14 @@ INSERT INTO student VALUES(2 , "Adarash Jange" , 24);
 
 -- SHOW DATA FROM TABLE
 SELECT * FROM student;
+
+-- DATABASE RELATED QUERIES 
+
+CREATE DATABASE college;
+CREATE DATABASE IF NOT EXISTS college; -- best practice
+
+DROP DATABASE IF EXISTS college; -- best practice
+
+SHOW DATABASES;
+USE college;
+SHOW TABLES;

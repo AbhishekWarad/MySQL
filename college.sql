@@ -31,7 +31,6 @@ INSERT INTO student VALUES(2 , "Adarash Jange" , 24);
 SELECT * FROM student;
 
 -- DATABASE RELATED QUERIES 
-
 CREATE DATABASE college;
 CREATE DATABASE IF NOT EXISTS college; -- best practice
 
